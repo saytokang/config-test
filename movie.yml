@@ -1,5 +1,5 @@
 movie:
-  directory: ${user.home}/tmp/movies
+  directory: /tmp/movies
   file-pattern: "*.txt"
   prevent-duplicates: true
   fixed-delay: 5000
@@ -9,3 +9,4 @@ logging:
     com:
       apress:
         cloud: INFO
+        
