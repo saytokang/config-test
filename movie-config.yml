@@ -1,0 +1,11 @@
+movie:
+  directory: ${user.home}/tmp/movies
+  file-pattern: "*.txt"
+  prevent-duplicates: true
+  fixed-delay: 5000
+  
+logging:
+  level:
+    com:
+      apress:
+        cloud: INFO
